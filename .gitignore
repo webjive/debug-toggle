@@ -1,0 +1,64 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/cache/supercache/
+
+# WordPress Core
+/wordpress/
+/wp-admin/
+/wp-includes/
+/wp-content/index.php
+/wp-content/themes/index.php
+/wp-content/plugins/index.php
+
+# Large/binary files
+*.sql
+*.tar.gz
+*.zip
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+/build/
+/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
